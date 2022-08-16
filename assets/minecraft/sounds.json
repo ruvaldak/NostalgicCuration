@@ -1246,55 +1246,55 @@
 		]
 	},
 	"entity.experience_orb.pickup": {
-		"replace": "true",
+		"replace": "${expSound}",
 		"sounds": [{
 			"name": "random/pop"
 		}]
 	},
 	"block.iron_door.open": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/open"
 		}]
 	},
 	"block.iron_door.close": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/close"
 		}]
 	},
 	"block.iron_trapdoor.open": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/open"
 		}]
 	},
 	"block.iron_trapdoor.close": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/close"
 		}]
 	},
 	"block.wooden_door.open": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/open"
 		}]
 	},
 	"block.wooden_door.close": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/close"
 		}]
 	},
 	"block.wooden_trapdoor.open": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/open"
 		}]
 	},
 	"block.wooden_trapdoor.close": {
-		"replace": "true",
+		"replace": "${openCloseSounds}",
 		"sounds": [{
 			"name": "goldendays/door/close"
 		}]
@@ -1354,7 +1354,7 @@
 		}]
 	},
 	"weather.rain": {
-		"replace": "true",
+		"replace": "weatherSounds",
 		"sounds": [
 			"goldendays/weather/rain/rain1",
 			"goldendays/weather/rain/rain2",

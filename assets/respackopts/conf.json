@@ -1,8 +1,13 @@
 {
-    id: "nostalgicCuration",
-    version: 8,
-    capabilities: ["FileFilter", "DirFilter"],
-    conf: {
-        classicSounds: true
+    "id": "nostalgicCuration",
+    "version": 7,
+    "capabilities": ["FileFilter", "DirFilter"],
+    "conf": {
+        "sounds": {
+           "enable": true,
+           "weather": true,
+           "openCloseSounds": true,
+           "expSound": true
+        }
     }
 }
