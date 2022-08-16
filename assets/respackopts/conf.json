@@ -1,0 +1,8 @@
+{
+    id: "<PackID>",
+    version: 8,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        // Your config options here
+    }
+}
