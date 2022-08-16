@@ -9,8 +9,8 @@
            "openCloseSounds": true,
            "expSound": true,
            "footsteps": true,
-           "oof": true,
-           "fallSounds": true
+           "ough": true,
+           "legBreak": true
         }
     }
 }
