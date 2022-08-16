@@ -1,5 +1,5 @@
 {
-    id: "<PackID>",
+    id: "nostalgicCuration",
     version: 8,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
