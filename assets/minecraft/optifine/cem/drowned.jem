@@ -1,5 +1,4 @@
 {
-	"texture": "pigman.png",
 	"textureSize": [64, 64],
 	"models": [
 		{
@@ -36,11 +35,16 @@
 				{
 					"id": "left_arm_sub_0",
 					"invertAxis": "xy",
-					"translate": [0, 0, 0],
+					"translate": [-4, 22, 0],
 					"mirrorTexture": "u",
 					"boxes": [
-						{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16]}
+						{"coordinates": [-4, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
 					]
+				}
+			],
+			"animations": [
+				{
+					"left_arm:left_arm_sub_0.rx": "-torad(10)"
 				}
 			]
 		},
@@ -49,8 +53,20 @@
 			"id": "right_arm",
 			"invertAxis": "xy",
 			"translate": [-5, -22, 0],
-			"boxes": [
-				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 16]}
+			"submodels": [
+				{
+					"id": "right_arm_sub_0",
+					"invertAxis": "xy",
+					"translate": [4, 22, 0],
+					"boxes": [
+						{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"right_arm:right_arm_sub_0.rx": "-torad(10)"
+				}
 			]
 		},
 		{
@@ -78,18 +94,6 @@
 			"boxes": [
 				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 16]}
 			]
-		},
-		{
-			"part": "left_ear",
-			"id": "left_ear",
-			"invertAxis": "xy",
-			"translate": [5.25, -30, 0]
-		},
-		{
-			"part": "right_ear",
-			"id": "right_ear",
-			"invertAxis": "xy",
-			"translate": [-5.5, -30, 0]
 		}
 	]
 }

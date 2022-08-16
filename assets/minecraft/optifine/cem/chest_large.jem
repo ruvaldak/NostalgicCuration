@@ -1,65 +1,64 @@
 {
-	"textureSize": [16, 16],
+	"texture": "chest.png",
+	"textureSize": [64, 64],
 	"models": [
-		{
-			"part": "base_left",
-			"id": "base_left",
-			"invertAxis": "xy",
-			"translate": [-7, -10, 19],
-			"rotate": [-180, 0, 0],
-			"boxes": [
-				{
-					"coordinates": [-9, -10, 3, 16, 16, 16],
-					"uvNorth": [12, 11, 16, 15],
-					"uvEast": [8, 11, 12, 15],
-					"uvSouth": [0, 11, 4, 15],
-					"uvWest": [8, 11, 12, 15],
-					"uvUp": [4, 11, 8, 15],
-					"uvDown": [4, 11, 8, 15]
-				}
-			]
-		},
-		{
-			"part": "base_right",
-			"id": "base_right",
-			"invertAxis": "xy",
-			"translate": [-7, -10, 19],
-			"rotate": [-180, 0, 0],
-			"boxes": [
-				{
-					"coordinates": [-9, -10, 3, 16, 16, 16],
-					"uvNorth": [12, 11, 16, 15],
-					"uvEast": [8, 11, 12, 15],
-					"uvSouth": [0, 11, 4, 15],
-					"uvWest": [8, 11, 12, 15],
-					"uvUp": [4, 11, 8, 15],
-					"uvDown": [4, 11, 8, 15]
-				}
-			]
-		},
 		{
 			"part": "lid_left",
 			"id": "lid_left",
 			"invertAxis": "xy",
-			"translate": [0, 0, 0]
+			"translate": [-8, -14, 7]
 		},
 		{
-			"part": "lid_right",
-			"id": "lid_right",
+			"part": "base_left",
+			"id": "base_left",
 			"invertAxis": "xy",
-			"translate": [0, 0, 0]
+			"translate": [-8, -10, 8],
+			"boxes": [
+				{
+					"coordinates": [-8, -6, -8, 16, 16, 16],
+					"uvNorth": [32, 48, 16, 32],
+					"uvEast": [48, 32, 32, 16],
+					"uvSouth": [16, 32, 0, 16],
+					"uvWest": [48, 32, 32, 16],
+					"uvUp": [0, 0, 16, 16],
+					"uvDown": [0, 0, 16, 16]
+				}
+			]
 		},
 		{
 			"part": "knob_left",
 			"id": "knob_left",
 			"invertAxis": "xy",
-			"translate": [0, 0, 0]
+			"translate": [-8, -10, 23]
+		},
+		{
+			"part": "lid_right",
+			"id": "lid_right",
+			"invertAxis": "xy",
+			"translate": [8, -14, 7]
+		},
+		{
+			"part": "base_right",
+			"id": "base_right",
+			"invertAxis": "xy",
+			"translate": [8, -10, 8],
+			"boxes": [
+				{
+					"coordinates": [-24, -6, -8, 16, 16, 16],
+					"uvNorth": [16, 48, 0, 32],
+					"uvEast": [48, 32, 32, 16],
+					"uvSouth": [32, 32, 16, 16],
+					"uvWest": [48, 32, 32, 16],
+					"uvUp": [0, 0, 16, 16],
+					"uvDown": [0, 0, 16, 16]
+				}
+			]
 		},
 		{
 			"part": "knob_right",
 			"id": "knob_right",
 			"invertAxis": "xy",
-			"translate": [0, 0, 0]
+			"translate": [8, -10, 23]
 		}
 	]
 }
