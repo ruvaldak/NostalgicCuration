@@ -221,7 +221,7 @@
 		]
 	},
 	"block.netherrack.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -261,7 +261,7 @@
 		]
 	},
 	"block.deepslate.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -301,7 +301,7 @@
 		]
 	},
 	"block.deepslate_tiles.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -341,7 +341,7 @@
 		]
 	},
 	"block.tuff.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -381,7 +381,7 @@
 		]
 	},
 	"block.calcite.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -421,7 +421,7 @@
 		]
 	},
 	"block.dripstone_block.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -461,7 +461,7 @@
 		]
 	},
 	"block.pointed_dripstone.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -472,7 +472,7 @@
 		]
 	},
 	"block.pointed_dripstone.land": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/stone1",
             "step/stone2",
@@ -519,7 +519,7 @@
 		]
 	},
 	"block.soul_sand.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/sand1",
             "step/sand2",
@@ -555,7 +555,7 @@
 		]
 	},
 	"block.soul_soil.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "step/gravel1",
             "step/gravel2",
@@ -591,7 +591,7 @@
 		]
 	},
 	"block.nylium.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -627,7 +627,7 @@
 		]
 	},
 	"block.roots.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -654,7 +654,7 @@
 		]
 	},
 	"block.wet_grass.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "goldendays/seagrass1",
             "goldendays/seagrass2",
@@ -744,7 +744,7 @@
 		]
 	},
 	"block.fungus.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -753,7 +753,7 @@
 		]
 	},
 	"block.moss.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -780,7 +780,7 @@
 		]
 	},
 	"block.moss_carpet.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -807,7 +807,7 @@
 		]
 	},
 	"block.azalea.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -834,7 +834,7 @@
 		]
 	},
 	"block.flowering_azalea.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -861,7 +861,7 @@
 		]
 	},
 	"block.big_dripleaf.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -888,7 +888,7 @@
 		]
 	},
 	"block.small_dripleaf.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/grass1",
             "dig/grass2",
@@ -966,7 +966,7 @@
 		]
 	},
 	"block.stem.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/wood1",
             "dig/wood2",
@@ -1002,7 +1002,7 @@
 		]
 	},
 	"block.gilded_blackstone.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",
@@ -1038,7 +1038,7 @@
 		]
 	},
 	"block.nether_gold_ore.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",
@@ -1074,7 +1074,7 @@
 		]
 	},
 	"block.nether_ore.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",
@@ -1110,7 +1110,7 @@
 		]
 	},
 	"block.nether_bricks.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",
@@ -1146,7 +1146,7 @@
 		]
 	},
 	"block.basalt.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",
@@ -1182,7 +1182,7 @@
 		]
 	},
 	"block.bone_block.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",
@@ -1215,7 +1215,7 @@
 		]
 	},
 	"block.nether_wart.step": {
-		"replace": "true",
+		"replace": "${footstepSounds}",
 		"sounds": [
             "dig/stone1",
             "dig/stone2",

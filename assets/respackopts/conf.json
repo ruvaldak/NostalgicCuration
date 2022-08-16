@@ -7,7 +7,10 @@
            "enable": true,
            "weather": true,
            "openCloseSounds": true,
-           "expSound": true
+           "expSound": true,
+           "footsteps": true,
+           "oof": true,
+           "fallSounds": true
         }
     }
 }

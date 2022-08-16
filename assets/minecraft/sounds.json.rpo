@@ -3,6 +3,7 @@
     "expansions": {
         "expSound": "nostalgicCuration:sounds.expSound",
         "openCloseSounds": "nostalgicCuration:sounds.openCloseSounds",
-        "weatherSounds": "nostalgicCuration:sounds.weather"
+        "weatherSounds": "nostalgicCuration:sounds.weather",
+        "footstepSounds": "nostalgicCuration:sounds.footsteps"
     }
 }
