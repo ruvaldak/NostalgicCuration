@@ -3,6 +3,6 @@
     version: 8,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
-        // Your config options here
+        classicSounds: true
     }
 }
