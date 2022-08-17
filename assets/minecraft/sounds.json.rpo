@@ -1,9 +1,12 @@
 {
     "condition": "nostalgicCuration:sounds.enable",
     "expansions": {
-        "expSound": "nostalgicCuration:sounds.expSound",
-        "openCloseSounds": "nostalgicCuration:sounds.openCloseSounds",
-        "weatherSounds": "nostalgicCuration:sounds.weather",
-        "footstepSounds": "nostalgicCuration:sounds.footsteps"
+        "expSound": "{nostalgicCuration.sounds.expSound}",
+        "expSoundNum": "{nostalgicCuration.sounds.expSound ? 1 : 0}",
+        "openCloseSounds": "{nostalgicCuration.sounds.openCloseSounds}",
+        "openCloseSoundsNum": "{nostalgicCuration.sounds.openCloseSounds ? 1 : 0}",
+        "weatherSounds": "{nostalgicCuration.sounds.weather}",
+        "footstepSounds": "{nostalgicCuration.sounds.footsteps}",
+        "footstepSoundsNum": "{nostalgicCuration.sounds.footsteps ? 1 : 0}"
     }
 }

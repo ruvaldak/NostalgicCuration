@@ -12,7 +12,7 @@ code by fayer3
   const float VANILLA_CLOUD_HEIGHT = 192.0;
 #endif
 
-const float CLOUD_HEIGHT = 110.00000000;
+const float CLOUD_HEIGHT = ${height};
 
 #moj_import <fog.glsl>
 
