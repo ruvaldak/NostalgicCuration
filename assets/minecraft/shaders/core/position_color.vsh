@@ -10,8 +10,12 @@ uniform mat4 ProjMat;
 
 out vec4 vertexColor;
 
+bool rougheq(vec3 a, vec3 b) {
+    return all(lessThan(abs(a - b), vec3(0.01)));
+}
+vec2 corners[4] = vec2[4](vec2(-1, -1), vec2(1, -1), vec2(1, 1), vec2(-1, 1));
+
 void main() {
-    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
 	// written by shmoobalizer
 	vec3 colorHSV = toHsv(Color.rgb);
@@ -52,4 +56,12 @@ void main() {
 	} else {
 		vertexColor = Color;
 	}
+	// thanks Godlander ^w^
+    vec3 pos = Position;
+    if (Position.x <= 2 && Position.z == 50 && Color.r > 0.3) vertexColor = vec4(0);
+    if (Position.z == 0) {
+        if (rougheq(Color.rgb, vec3(51,51,170)/255.)) vertexColor = vec4(0);
+        if (rougheq(Color.rgb, vec3(204)/255.)) pos.x = corners[(gl_VertexID+2)%4].x-1.0;
+    }
+    gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
 }

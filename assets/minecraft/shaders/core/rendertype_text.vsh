@@ -7,6 +7,7 @@ in vec4 Color;
 in vec2 UV0;
 in ivec2 UV2;
 
+uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
@@ -19,7 +20,11 @@ out vec4 vertexColor;
 out vec2 texCoord0;
 
 void main() {
-    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
+	vec3 pos = Position;
+	if (texture(Sampler0, UV0).a == 69/255.0) {
+		pos.z = 1000;
+	}
+    gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
 
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
 

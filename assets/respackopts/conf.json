@@ -12,15 +12,6 @@
            "ough": true,
            "legBreak": true
         },
-        "sky": {
-            "colors": false,
-            "cloudHeight": {
-                "type": "slider",
-                "default": 110,
-                "min": -64,
-                "max": 392
-            }
-        },
         "colormaps": {
             "foliage": false
         },
