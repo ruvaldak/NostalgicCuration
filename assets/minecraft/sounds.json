@@ -1738,5 +1738,89 @@
 			"goldendays/weather/rain/rain3",
 			"goldendays/weather/rain/rain4"
 		]
-	}
+	},
+	"entity.zombie_villager.ambient": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.ambient"
+		}]
+    },
+    "entity.zombie_villager.death": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.death"
+		}]
+    },
+    "entity.zombie_villager.hurt": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.hurt"
+		}]
+    },
+    "entity.zombie_villager.step": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.step"
+		}]
+    },
+    "entity.husk.ambient": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.ambient"
+		}]
+    },
+    "entity.husk.death": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.death"
+		}]
+    },
+    "entity.husk.hurt": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.hurt"
+		}]
+    },
+    "entity.husk.step": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.step"
+		}]
+    },
+	"entity.drowned.ambient": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.ambient"
+		}]
+    },
+    "entity.drowned.death": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.death"
+		}]
+    },
+    "entity.drowned.hurt": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.hurt"
+		}]
+    },
+    "entity.drowned.step": {
+		"replace": "true",
+		"sounds": [{
+            "type": "event",
+			"name": "entity.zombie.step"
+		}]
+    }
 }
