@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<paths>
+		<left>C:\Users\tyler\AppData\Roaming\com.modrinth.theseus\profiles\1756db76-d043-4e3c-b67a-311f779fa043\resourcepacks\NostalgicCuration</left>
+		<right>C:\Users\tyler\AppData\Roaming\com.modrinth.theseus\profiles\1756db76-d043-4e3c-b67a-311f779fa043\resourcepacks\golden-days-base-1.19-1.8.1(1)</right>
+		<filter>*.*</filter>
+		<subfolders>1</subfolders>
+		<left-readonly>0</left-readonly>
+		<right-readonly>0</right-readonly>
+		<white-spaces>0</white-spaces>
+		<ignore-blank-lines>0</ignore-blank-lines>
+		<ignore-case>0</ignore-case>
+		<ignore-carriage-return-diff>0</ignore-carriage-return-diff>
+		<ignore-numbers>0</ignore-numbers>
+		<ignore-codepage-diff>0</ignore-codepage-diff>
+		<ignore-comment-diff>0</ignore-comment-diff>
+		<compare-method>0</compare-method>
+	</paths>
+</project>
