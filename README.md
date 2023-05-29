@@ -5,7 +5,7 @@ The goal of this pack is to rework the visuals of minecraft as though it had stu
 
 Credit to:
 
-[Golden Days](https://modrinth.com/resourcepack/golden-days) by PoeticRainbow
+[Golden Days](https://modrinth.com/resourcepack/golden-days) by PoeticRainbow ([List of files used](https://htmlpreview.github.io/?https://github.com/ruvaldak/NostalgicCuration/blob/master/golden-days-nostalgic-curation-diffs.html))
 
 [BetaContinuum](https://www.planetminecraft.com/texture-pack/beta-continuum/) by shmoobalizer
 
